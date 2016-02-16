@@ -12,7 +12,12 @@ class KeyboardViewController: UIInputViewController {
 
     @IBOutlet var nextKeyboardButton: UIButton!
     
+//    @IBOutlet var returnKeyboardButton: UIButton!
+//    
+//    @IBOutlet var delKeyboardButton: UIButton!
+    
     var keyboardView: UIView!
+
 
     override func updateViewConstraints() {
         super.updateViewConstraints()
@@ -37,6 +42,15 @@ class KeyboardViewController: UIInputViewController {
     override func textDidChange(textInput: UITextInput?) {
         // The app has just changed the document's contents, the document context has been updated.
     }
+    
+    @IBAction func createNewline(sender: UIButton){
+        textDocumentProxy.insertText("\n")
+    }
+    
+    @IBAction func deleteChar(sender: UIButton){
+        textDocumentProxy.deleteBackward()
+    }
+ 
 
     func loadInterface() {
         let keyboardNib = UINib(nibName: "Keyboard", bundle: nil)
@@ -45,7 +59,8 @@ class KeyboardViewController: UIInputViewController {
         view.addSubview(keyboardView)
         view.backgroundColor = keyboardView.backgroundColor
         nextKeyboardButton.addTarget(self, action: "advanceToNextInputMode", forControlEvents: .TouchUpInside) // advanceToNextInputMode is already defined in template
-        
+        //returnKeyboardButton.addTarget(self, action: "createNewline", forControlEvents: .TouchUpInside)
+        //delKeyboardButton.addTarget(self, action: "deleteBackward", forControlEvents: .TouchUpInside)
     }
 
 
