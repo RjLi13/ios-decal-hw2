@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C03E3191C744704008E74DB /* rainbow-background-images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C03E3181C744704008E74DB /* rainbow-background-images.jpg */; };
+		2C03E31B1C7458F8008E74DB /* computer_key_Arrow_Up.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C03E31A1C7458F8008E74DB /* computer_key_Arrow_Up.png */; };
+		2C03E31D1C745950008E74DB /* space_key_m.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C03E31C1C745950008E74DB /* space_key_m.png */; };
+		2C03E3211C745AFE008E74DB /* Where-is-the-Mac-Delete-Key1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C03E3201C745AFE008E74DB /* Where-is-the-Mac-Delete-Key1.png */; };
+		2C03E3231C745F77008E74DB /* Play-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C03E3221C745F77008E74DB /* Play-Button.png */; };
+		2C03E3251C7461EF008E74DB /* computer_key_Enter.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C03E3241C7461EF008E74DB /* computer_key_Enter.png */; };
 		3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5554491BA930D800AF502F /* Keyboard.xib */; };
 		3AAA639A1BA9263900E3822E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA63991BA9263900E3822E /* AppDelegate.swift */; };
 		3AAA639C1BA9263900E3822E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA639B1BA9263900E3822E /* ViewController.swift */; };
@@ -42,6 +48,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C03E3181C744704008E74DB /* rainbow-background-images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rainbow-background-images.jpg"; sourceTree = "<group>"; };
+		2C03E31A1C7458F8008E74DB /* computer_key_Arrow_Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = computer_key_Arrow_Up.png; sourceTree = "<group>"; };
+		2C03E31C1C745950008E74DB /* space_key_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = space_key_m.png; sourceTree = "<group>"; };
+		2C03E3201C745AFE008E74DB /* Where-is-the-Mac-Delete-Key1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Where-is-the-Mac-Delete-Key1.png"; sourceTree = "<group>"; };
+		2C03E3221C745F77008E74DB /* Play-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Play-Button.png"; sourceTree = "<group>"; };
+		2C03E3241C7461EF008E74DB /* computer_key_Enter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = computer_key_Enter.png; sourceTree = "<group>"; };
 		3A5554491BA930D800AF502F /* Keyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Keyboard.xib; sourceTree = "<group>"; };
 		3AAA63961BA9263900E3822E /* CustomKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAA63991BA9263900E3822E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +119,12 @@
 		3AAA63B11BA9283500E3822E /* CalKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				2C03E3241C7461EF008E74DB /* computer_key_Enter.png */,
+				2C03E3221C745F77008E74DB /* Play-Button.png */,
+				2C03E3201C745AFE008E74DB /* Where-is-the-Mac-Delete-Key1.png */,
+				2C03E31C1C745950008E74DB /* space_key_m.png */,
+				2C03E31A1C7458F8008E74DB /* computer_key_Arrow_Up.png */,
+				2C03E3181C744704008E74DB /* rainbow-background-images.jpg */,
 				3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */,
 				3A5554491BA930D800AF502F /* Keyboard.xib */,
 				3AAA63B41BA9283500E3822E /* Info.plist */,
@@ -204,6 +222,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C03E3191C744704008E74DB /* rainbow-background-images.jpg in Resources */,
+				2C03E3211C745AFE008E74DB /* Where-is-the-Mac-Delete-Key1.png in Resources */,
+				2C03E3231C745F77008E74DB /* Play-Button.png in Resources */,
+				2C03E31B1C7458F8008E74DB /* computer_key_Arrow_Up.png in Resources */,
+				2C03E3251C7461EF008E74DB /* computer_key_Enter.png in Resources */,
+				2C03E31D1C745950008E74DB /* space_key_m.png in Resources */,
 				3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

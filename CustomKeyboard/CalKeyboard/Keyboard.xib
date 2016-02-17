@@ -20,34 +20,61 @@
                         <constraint firstAttribute="width" constant="30" id="eu0-xj-Jov"/>
                         <constraint firstAttribute="height" constant="30" id="rFT-bm-aBM"/>
                     </constraints>
-                    <state key="normal" title="N"/>
+                    <state key="normal" backgroundImage="computer_key_Arrow_Up.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ze2-na-kBe">
+                    <rect key="frame" x="295" y="162" width="65" height="30"/>
+                    <state key="normal" backgroundImage="computer_key_Enter.png"/>
+                    <connections>
+                        <action selector="createNewline:" destination="-1" eventType="touchUpInside" id="X0w-dq-NUU"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TU4-4P-4EH">
-                    <rect key="frame" x="337" y="8" width="30" height="30"/>
-                    <state key="normal" title="D"/>
+                    <rect key="frame" x="325" y="8" width="42" height="37"/>
+                    <state key="normal" backgroundImage="Where-is-the-Mac-Delete-Key1.png"/>
                     <connections>
                         <action selector="deleteChar:" destination="-1" eventType="touchUpInside" id="nMK-A5-Krh"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRL-ze-g6i">
                     <rect key="frame" x="152" y="79" width="70" height="30"/>
-                    <state key="normal" title="Dank it up"/>
+                    <state key="normal" title="Dank it up" backgroundImage="rainbow-background-images.jpg">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
                     <connections>
                         <action selector="dankItUp:" destination="-1" eventType="touchUpInside" id="Dgw-t6-TFf"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aca-T6-oPN">
-                    <rect key="frame" x="172" y="130" width="43" height="30"/>
-                    <state key="normal" title="Space"/>
+                    <rect key="frame" x="140" y="169" width="94" height="23"/>
+                    <state key="normal" backgroundImage="space_key_m.png"/>
                     <connections>
                         <action selector="addSpace:" destination="-1" eventType="touchUpInside" id="1Y2-dn-6eK"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ze2-na-kBe">
-                    <rect key="frame" x="337" y="162" width="30" height="30"/>
-                    <state key="normal" title="R"/>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVt-QO-11O">
+                    <rect key="frame" x="60" y="79" width="52" height="30"/>
+                    <state key="normal" title="Foreign"/>
                     <connections>
-                        <action selector="createNewline:" destination="-1" eventType="touchUpInside" id="X0w-dq-NUU"/>
+                        <action selector="foreignMemes:" destination="-1" eventType="touchUpInside" id="9sN-hr-CV1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQM-L9-UOs">
+                    <rect key="frame" x="256" y="79" width="46" height="30"/>
+                    <state key="normal" title="Safari" backgroundImage="Play-Button.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="secretKey:" destination="-1" eventType="touchUpInside" id="P9t-Es-0cU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7jf-eV-hcp">
+                    <rect key="frame" x="256" y="79" width="46" height="30"/>
+                    <state key="normal" title="Safari" backgroundImage="Play-Button.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="playVideo:" destination="-1" eventType="touchUpInside" id="iBb-Uv-1Ig"/>
                     </connections>
                 </button>
             </subviews>
@@ -60,4 +87,12 @@
             <point key="canvasLocation" x="605.5" y="542"/>
         </view>
     </objects>
+    <resources>
+        <image name="Play-Button.png" width="857" height="845"/>
+        <image name="Where-is-the-Mac-Delete-Key1.png" width="263" height="264"/>
+        <image name="computer_key_Arrow_Up.png" width="559" height="527"/>
+        <image name="computer_key_Enter.png" width="1100" height="527"/>
+        <image name="rainbow-background-images.jpg" width="5000" height="3750"/>
+        <image name="space_key_m.png" width="1651" height="501"/>
+    </resources>
 </document>
