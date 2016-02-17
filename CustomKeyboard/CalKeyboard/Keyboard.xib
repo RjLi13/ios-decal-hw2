@@ -29,6 +29,20 @@
                         <action selector="deleteChar:" destination="-1" eventType="touchUpInside" id="nMK-A5-Krh"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRL-ze-g6i">
+                    <rect key="frame" x="152" y="79" width="70" height="30"/>
+                    <state key="normal" title="Dank it up"/>
+                    <connections>
+                        <action selector="dankItUp:" destination="-1" eventType="touchUpInside" id="Dgw-t6-TFf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aca-T6-oPN">
+                    <rect key="frame" x="172" y="130" width="43" height="30"/>
+                    <state key="normal" title="Space"/>
+                    <connections>
+                        <action selector="addSpace:" destination="-1" eventType="touchUpInside" id="1Y2-dn-6eK"/>
+                    </connections>
+                </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ze2-na-kBe">
                     <rect key="frame" x="337" y="162" width="30" height="30"/>
                     <state key="normal" title="R"/>

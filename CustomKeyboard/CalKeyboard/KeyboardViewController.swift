@@ -12,10 +12,6 @@ class KeyboardViewController: UIInputViewController {
 
     @IBOutlet var nextKeyboardButton: UIButton!
     
-//    @IBOutlet var returnKeyboardButton: UIButton!
-//    
-//    @IBOutlet var delKeyboardButton: UIButton!
-    
     var keyboardView: UIView!
 
 
@@ -51,6 +47,28 @@ class KeyboardViewController: UIInputViewController {
         textDocumentProxy.deleteBackward()
     }
  
+    
+    @IBAction func dankItUp(sender: UIButton){
+        let randInt = Int(arc4random_uniform(4))
+        switch randInt{
+        case 0:
+            textDocumentProxy.insertText("much wow")
+        case 1:
+            textDocumentProxy.insertText("rarest of pepes")
+        case 2:
+            textDocumentProxy.insertText("420 blaze it")
+        case 3:
+            textDocumentProxy.insertText("EECS")
+        default:
+            textDocumentProxy.insertText("wut duh")
+        }
+        
+    }
+    
+    
+    @IBAction func addSpace(sender: UIButton){
+        textDocumentProxy.insertText(" ")
+    }
 
     func loadInterface() {
         let keyboardNib = UINib(nibName: "Keyboard", bundle: nil)
@@ -59,8 +77,6 @@ class KeyboardViewController: UIInputViewController {
         view.addSubview(keyboardView)
         view.backgroundColor = keyboardView.backgroundColor
         nextKeyboardButton.addTarget(self, action: "advanceToNextInputMode", forControlEvents: .TouchUpInside) // advanceToNextInputMode is already defined in template
-        //returnKeyboardButton.addTarget(self, action: "createNewline", forControlEvents: .TouchUpInside)
-        //delKeyboardButton.addTarget(self, action: "deleteBackward", forControlEvents: .TouchUpInside)
     }
 
 
